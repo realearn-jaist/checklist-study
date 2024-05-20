@@ -12,7 +12,6 @@ cd checklist
 pip install -e .
 ```
 
-suite.visual_summary_table()
 # Install torch (required)
 ```pip install torch```
 
