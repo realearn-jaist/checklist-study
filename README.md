@@ -1,48 +1,35 @@
 **Introduction:**
 
-Aj.X needs to install the following library.
+needs to install the following library.
 
 To ensure compatibility, it's recommended to use Python version 11 in the path because the munch library supports a maximum of Python version 11 because munch library does not support version 3.12.
 
 If you encounter issues compiling cells after installation, please restart the kernel or the Anaconda command prompt.
+# install checklist
+```
+git clone https://github.com/marcotcr/checklist
+cd checklist
+pip install -e .
+```
 
+suite.visual_summary_table()
 # Install torch (required)
 ```pip install torch```
 
-# Update pip
-```pip install --upgrade pip```
-
 # Install the required packages
-```pip install checklist spacy```
+```pip install spacy```
 
 # Download the English language model for spaCy
 ```python -m spacy download en_core_web_sm```
 
-# Install itertools 
-(part of Python's standard library, but if it is error please use this command to install)
-
-```pip install itertools```
 
 
-
-# Update Python 
-(if aj using Anaconda)
-
-```conda update python```
-
-# Upgrade pip
-```python -m pip install --upgrade pip```
-
+# Update Python
 # Install TensorFlow 
 ```pip install tensorflow```
 
 # Install munch
 ```pip install munch```
-
-# Install re 
-(part of Python's standard library, but if it is error please use this command to install)
-
-```pip install re```
 
 # Install pattern 
 used in qqp
